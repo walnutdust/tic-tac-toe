@@ -1,0 +1,57 @@
+:root {
+
+}
+body{
+  margin: 0 auto;
+  display: table;
+}
+
+.play-button{
+  height: auto;
+  margin: 0 0;
+  font-size: 100px;
+}
+
+#selection-container, #button-container, #name-container{
+  margin:0 auto;
+  display: table;
+}
+
+input{
+  height: 30px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+p{
+  font-family: 'Roboto Mono', monospace;
+  font-size: 30px;
+  height: 50px;
+  margin: 35px auto;
+
+}
+
+button{
+  height:30px;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border: solid black 2px;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#game-body {
+
+  width: 450px;
+  height: 450px;
+  padding: 15px;
+  background-color: aliceblue;
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  margin: 20px auto;
+  border-radius: 10px;
+  font-family: 'Roboto Mono', monospace;
+}
